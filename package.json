@@ -5,12 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "node ./node_modules/vite/bin/vite.js build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@react-three/fiber": "^8.16.8",
     "@react-three/drei": "^9.105.6",
+    "@react-three/fiber": "^8.16.8",
     "framer-motion": "^11.2.10",
     "gsap": "^3.12.5",
     "lenis": "^1.1.9",
